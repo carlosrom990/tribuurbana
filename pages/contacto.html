@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- -------------------header----------------------------------------------------------- -->
+    <header>
+      <a href="../index.html" style="text-decoration:none"><h1 class="nav__titulo"> tribu urbana.</h1></a>
+      <nav class="nav__list">
+        <ul>
+          <li class="nav__link"><a href="../index.html" class="nav__link--decoration">inicio</a></li>
+          <li class="nav__link"><a href="catalogo.html" class="nav__link--decoration">catalogo</a></li>
+          <li class="nav__link"><a href="preguntasfrecuentes.html" class="nav__link--decoration">preguntas frecuentes</a></li>
+          <li class="nav__link"><a href="tallesymedidas.html" class="nav__link--decoration">talles y medidas</a></li>
+          <li class="nav__link"><a href="contacto.html" class="nav__link--decoration">contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- ------------------body contacto-------------------------------------- -->
+    <main class="mainContacto">
+      <h2>contacto</h2>
+      <p>
+        Somos Tribu Urbana. Somos una pareja emprendedora que en plena pandemia tomo la decision de brindar este servicio con todo el amor y respeto, con el fin de poder plasmar tus ideas y sentimientos en los productos para que tengas el regalo de tus sueños. Para poder contactarte con nosotros te
+        brindamos todas nuestras redes sociales:
+      </p>
+      <div class="contacto__grid">
+        <a href="https://www.facebook.com/tribu.urbana.566" class="contacto__grid--col1"><img src="../images/redes/contacto/facecolor.png" alt="" class="contacto__img" /></a>
+        <a href="https://www.instagram.com/tribuurbana_/"><img src="../images/redes/contacto/instacolor.png" alt="" class="contacto__img" /></a>
+        <a href="https://www.tiktok.com/@tribuurbanaestamp" class="contacto__grid--col1"><img src="../images/redes/contacto/tiktokcolor.png" alt="" class="contacto__img" /></a>
+        <a href=""><img src="../images/redes/contacto/whatsappcolor.png" alt="" class="contacto__img" /></a>
+      </div>
+      <form class="contacto__form">
+        <fieldset class="contacto__textarea">
+          <legend>Comentario</legend>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" required class="cuadroInput"/>
+          <br />
+          <label for="apellido">Apellido</label>
+          <input type="text" name="apellido" id="apellido" required class="cuadroInput" />
+          <br />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required class="cuadroInput" />
+          <br />
+          <div>Motivo</div>
+          <label> Talle</label>
+          <input type="radio" name="motivo" id="talle" />
+          <label>Precio</label>
+          <input type="radio" name="motivo" id="precio" />
+          <label>Otro</label>
+          <input type="radio" name="motivo" id="otro" />
+          <br />
+          <textarea name="texto" id="texto" cols="30" rows="10" class="contacto__texarea--cuadro"></textarea>
+          <br />
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Borrar" />
+        </fieldset>
+      </form>
+    </main>
+
+  
+  <!-- -------------------------footer-------------------------------------- -->
+    <footer>
+      <h3>seguinos en nuestras redes sociales</h3>
+      <ul class="footer__list">
+        <li class="footer__link"><a href="https://www.facebook.com/tribu.urbana.566"><img src="../images/redes/footer/face.png" alt="" class="footer__img"></a></li>
+        <li class="footer__link"><a href="https://www.instagram.com/tribuurbana_/"><img src="../images/redes/footer/insta.png" alt="" class="footer__img"></a></li>
+        <li class="footer__link"><a href="https://www.tiktok.com/@tribuurbanaestamp"><img src="../images/redes/footer/tiktok.png" alt="" class="footer__img"></a></li>
+        <li class="footer__link"><!-- link de whatsapp --><img src="../images/redes/footer/whatsapp.png" alt="" class="footer__img"></a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
+  
