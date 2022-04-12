@@ -36,7 +36,6 @@ header {
 
 .nav__link {
   display: inline-block;
-  /*text-decoration: none*/
   text-transform: uppercase;
   margin: 5px;
 }
@@ -44,6 +43,16 @@ header {
 .nav__link--decoration {
   text-decoration: none;
   color: black;
+}
+/* ----------- animacion-------------- */
+.nav__list ul:hover a {
+  filter: blur(4px);
+}
+.nav__list ul li:hover {
+  transform: translateY(-3px) scale(1.5);
+}
+.nav__list ul li a:hover {
+  filter: none;
 }
 
 /* ---------------------------footer----------------------------*/
@@ -66,6 +75,10 @@ footer h3 {
   display: flex;
   justify-content: space-around;
   list-style: none;
+}
+/* ----------------animacion----- */
+.footer__img:hover {
+  transform: translateY(-3px) scale(1.5);
 }
 
 /* ---------------------------body index----------------------------- */
