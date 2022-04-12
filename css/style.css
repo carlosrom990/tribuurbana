@@ -70,7 +70,7 @@ footer h3 {
 
 /* ---------------------------body index----------------------------- */
 .body__index {
-  background-image: linear-gradient(rgb(254, 200, 154), white);
+  background-image: linear-gradient(rgb(249, 220, 196), white, white);
 }
 .banner__img {
   width: 100%;
@@ -165,16 +165,17 @@ footer h3 {
 .comentarios__grid {
   display: grid;
   gap: 10px;
-  grid-template-columns: 300px;
-  grid-template-rows: repeat(4, 200px);
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
   justify-content: center;
 }
 .comentario__grid--image {
-  width: 100px;
+  width: 100%;
+  padding: 10px;
 }
 .comentarios__grid--personas {
   display: grid;
-  grid-template-columns: 110px 180px;
+  grid-template-columns: 30% 70%;
   text-align: center;
   align-items: center;
   justify-items: center;
